@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة السنة الثالثة - قانون عام</title>
+    
+    <!-- Google Fonts: Tajawal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container header-content">
+            <img src="ic_launcher.png" alt="شعار منصة السنة الثالثة" class="logo-img">
+            <h1>منصة السنة الثالثة - قانون عام</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Quick Links Section -->
+        <section id="quick-links" class="container">
+            <h2><i class="fas fa-link"></i> روابط سريعة</h2>
+            <div class="buttons-container">
+                <a href="https://t.me/+8pSbpeXLveI0NTE0" target="_blank" class="btn btn-telegram">
+                    <i class="fab fa-telegram-plane"></i> الانضمام لمجموعة التليجرام
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61582579114594" target="_blank" class="btn btn-facebook">
+                    <i class="fab fa-facebook-f"></i> صفحة طلب الملخصات
+                </a>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="container">
+            <h2><i class="fas fa-star"></i> مميزات المنصة</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-file-alt feature-icon"></i>
+                    <h3>ملخصات شاملة</h3>
+                    <p>أفضل الملخصات الدقيقة لجميع مقاييس القانون العام لضمان التفوق الأكاديمي.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-sync-alt feature-icon"></i>
+                    <h3>مراجعات دورية</h3>
+                    <p>حصص مراجعة مكثفة وموجهة للتحضير الأمثل لفترة الامتحانات.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-calendar-check feature-icon"></i>
+                    <h3>توقيت منظم</h3>
+                    <p>برامج زمنية مدروسة تساعدك على تنظيم وقتك ومراجعة الدروس بفعالية.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Subjects Section -->
+        <section id="subjects" class="container">
+            <h2><i class="fas fa-book-open"></i> المقاييس الدراسية</h2>
+            <div class="subjects-grid">
+                <div class="subject-card">
+                    <i class="fas fa-balance-scale-left subject-icon"></i>
+                    <h3>مقياس المنازعات الإدارية</h3>
+                    <a href="administrative-disputes.html" class="btn btn-subject">عرض الدروس</a>
+                </div>
+                <div class="subject-card">
+                    <i class="fas fa-chart-line subject-icon"></i>
+                    <h3>مقياس القانون العام الاقتصادي</h3>
+                    <a href="#subjects" class="btn btn-subject">عرض الدروس</a>
+                </div>
+                <div class="subject-card">
+                    <i class="fas fa-lightbulb subject-icon"></i>
+                    <h3>مقياس الملكية الفكرية</h3>
+                    <a href="intellectual-property.html" class="btn btn-subject">عرض الدروس</a>
+                </div>
+                <div class="subject-card">
+                    <i class="fas fa-globe subject-icon"></i>
+                    <h3>القانون والقضاء الدولي الجنائي</h3>
+                    <a href="#subjects" class="btn btn-subject">عرض الدروس</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Revision Schedule Section -->
+        <section id="schedule" class="container">
+            <h2><i class="fas fa-clock"></i> التوقيت الزمني للمراجعة</h2>
+            <p class="schedule-subtitle">اضغط على الصورة لتكبيرها</p>
+            <div class="image-container">
+                <img src="TIME.png" alt="برنامج المراجعة - السنة الثالثة قانون عام" id="schedule-img">
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Modal for Image Zoom -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="zoomed-img">
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2026 | منصة السنة الثالثة - قانون عام</p>
+    </footer>
+
+    <!-- JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
